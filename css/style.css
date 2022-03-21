@@ -1,0 +1,589 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  font-family:'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+  html{
+	  font-size: 62.5%;
+  }
+
+    body{
+      color: #FFF;
+      background-color: #041634;
+    }
+
+      h2{
+     font-size: 10rem;
+     font-weight: 500;
+     padding-bottom: 2rem;
+     }
+
+        P{
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height:2.4rem;
+        }
+
+                          /*INICIO ESTILOS HEADER*/                    
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .logoH1 a{
+    display: flex;
+    font-size: 3rem;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+  }
+
+  .divNav{
+    display: flex;
+    margin-right: 4rem;
+  }
+
+.divNav a{
+  display: flex;
+  padding: 1rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+                             /*INICIO ESTILOS MAIN INDEX*/
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.textCenter{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+.textRight{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+.textLeft{
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.imgCenter{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imgRight{
+  display: flex;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+.imgLeft{
+display: flex;
+margin-left: 5rem;
+}
+
+.imgRectangulo{
+  height: 500px;
+  width: 750px;
+}
+
+.imgCuadrado{
+  height: 620px;
+  width: 620px;
+}
+
+
+.tituloCenter{
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.tituloLeft{
+  margin-top: 6rem;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+.tituloRight{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+                          /*INICIO ESTILOS FOOTER*/
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+.footer h3{
+  padding: 1rem;
+}
+
+.imgFooter_Sm{
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+                    /*INICIO ESTILOS BATERISTA*/
+
+.divBaterista{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.imgBaterista{
+  margin-left: 5rem;
+  height: 500px;
+  width: 750px;
+}
+
+.textBaterista{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 2rem;
+
+}
+
+.divVideo_Baterista{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.divVid{
+  padding-top: 5rem;
+}
+
+
+                  /*INICIO ESTILOS SOBREDOSIS DE SODA*/
+
+.divSobredosis{
+    display: flex;
+    flex-direction: column;
+  }
+
+.imgSobredosis{
+  margin-left: 5rem;
+  height: 500px;
+  width: 750px;
+}
+
+.textSobredosis{
+  margin: 5rem;
+
+}
+
+.divVideo_Sobredosis{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.asideSoda{
+  padding-top: 13rem;
+}
+
+.asideSoda h2{
+  font-size: 6rem;
+  
+}
+
+.divSponsor{
+  display: flex;
+  justify-content: center;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.article img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 1rem;
+  height: 150px;
+  width: 310px;
+}
+
+                  /*IINICIO ESTILOS MODO UNIVERSAL*/
+
+.divModo{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgModo{
+  margin-left: 5rem;
+  height: 500px;
+  width: 750px;
+}
+
+.textModo{
+  margin: 5rem;
+}
+
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
+}
+
+.divImgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+
+
+                  /*INICIO ESTILOS CLASE*/
+
+
+.divClases{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgClases{
+  margin-left: 5rem;
+  height: 620px;
+  width: 620px;
+}
+
+.textClases{
+  margin-left: 5rem;
+  padding: 3rem;
+  width: 600px;
+}
+
+aside{
+  margin-top: 15rem;
+}
+
+
+.divContacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.sectionClases h2{
+  font-size: 6rem;
+}
+
+.sectionClases iframe{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 500px;
+  height: 400px;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form label{
+  width: 500px;
+  display: flex;
+  padding: 1rem;
+}
+
+.form input{
+  display: flex;
+  height: 5rem;
+  width: 500px;
+}
+
+.form textarea{
+  width: 500px;
+  height: 300px;
+  padding-bottom: 1rem;
+}
+
+.form button{
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 4rem;
+}
+
+
+                  /* GRID CONTENEDOR UNA COLUMNA (INDEX,BATERISTA,MODO) */
+
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "nav" 
+                      "main" 
+                      "footer";
+}
+
+#nav{
+  grid-area: nav;
+}
+
+#main{
+  grid-area: main;
+}
+
+#footer{
+  grid-area: footer;
+}
+
+/*  GRID CONTENEDOR DOS COLUMNAS (SOBREDOSIS,CLASES) */
+
+.contenedorDos{
+  display: grid;
+  grid-template-columns: repeat(2,50% 50%);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "nav nav" 
+                      "main aside" 
+                      "video video"
+                      "footer footer";
+}
+
+#nav{
+  grid-area: nav;
+}
+
+#main{
+  grid-area: main;
+}
+
+#aside{
+  grid-area: aside;
+}
+
+#video{
+  grid-area: video;
+}
+
+#footer{
+  grid-area: footer;
+}
+
+
+                      /* MEDIA QUERIES UNA COLUMNA*/
+
+
+@media screen and (max-width: 400px) {
+
+  .contenedor{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid grid-template-rows: 3 repeat(auto);
+  grid-template-areas: "nav" 
+                       "main" 
+                       "footer";
+  }
+
+  #nav{
+  grid-area: nav;
+  }
+
+  #main{
+  grid-area: main;
+  }
+
+  #footer{
+  grid-area: footer;
+  }
+
+
+
+  /* MEDIA QUERIES DOS COLUMNAS */
+
+.contenedorDos{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5,auto);
+  grid-template-areas: "nav" 
+                      "main" 
+                      "aside"
+                      "video"
+                      "footer";
+}
+
+#nav{
+  grid-area: nav;
+}
+
+#main{
+  grid-area: main;
+}
+
+#aside{
+  grid-area: aside;
+}
+
+#video{
+  grid-area: video;
+}
+
+#footer{
+  grid-area: footer;
+}
+
+
+
+                    /* ESTILOS MEDIA QUERIES GENERALES */
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.divNav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav h1{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav h1 a{
+  flex-direction: row;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.nav div{
+  
+}
+
+.nav div a{
+  font-size: 2.1rem;
+
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+}
+
+#main h2{
+  font-size: 8rem;
+  text-align: center;
+
+}
+
+#main img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+              
+                      /* ESTILOS MEDIA QUERIES BATERISTA */
+
+.imgBaterista{
+  padding-bottom: 2rem;
+}
+
+
+                    /* ESTILOS MEDIA QUERIES MODO */
+
+#main section div ul{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divImgs{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
