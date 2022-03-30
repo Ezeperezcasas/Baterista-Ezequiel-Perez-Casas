@@ -28,7 +28,7 @@
         font-size: 1.8rem;
         font-weight: 300;
         line-height:2.4rem;
-        color: #7A7A7A;
+        color: #FFF;
         }
 
         img:hover{
@@ -37,7 +37,10 @@
           transition: transform 2s;
         }
 
-                          /*INICIO ESTILOS HEADER*/                    
+                          /*INICIO ESTILOS HEADER*/   
+  .header{ 
+     background-color: #041634; 
+   }                                         
 
   .nav{
     display: flex;
@@ -54,30 +57,32 @@
     color: #FFF;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 2rem;
     font-family: 'Montserrat', sans-serif;
   }
 
-  .divNav{
+  #divNav{
     display: flex;
-    margin-right: 4rem;
     animation-name: textWow;
     animation-duration:2s;
     animation-timing-function:ease;
   }
 
-.divNav a{
+#divNav ul li a{
   display: flex;
-  padding: 1rem;
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #FFF;
 }
 
-.divNav a:hover{
-  color: #6EC1E4;
+#divNav ul li  a:hover{
+  text-shadow: 0 0 10px #6EC1E4,
+  0 0 20px #6EC1E4,
+  0 0 40px #6EC1E4;
 }
+
+
+
 
 
                              /*INICIO ESTILOS MAIN INDEX*/
@@ -183,17 +188,14 @@ margin-left: 5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.imgBaterista{
-  margin-left: 5rem;
+  margin-left: 3rem;
   height: 500px;
   width: 750px;
 }
 
 .textBaterista{
-  margin-left: 5rem;
-  margin-right: 5rem;
+  width: 800px;
+  padding-left: 3rem;
   padding-top: 2rem;
 
 }
@@ -211,20 +213,19 @@ margin-left: 5rem;
 
                   /*INICIO ESTILOS SOBREDOSIS DE SODA*/
 
-.divSobredosis{
-    display: flex;
-    flex-direction: column;
-  }
-
-.imgSobredosis{
-  margin-left: 5rem;
-  height: 500px;
-  width: 750px;
+.textSobredosis{
+  width: 800px;
+  padding-left: 3rem;
+  padding-top: 2rem;
 }
 
-.textSobredosis{
-  margin: 5rem;
-
+.divSobredosis{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 3rem;
+  height: 500px;
+  width: 750px;
 }
 
 .divVideo_Sobredosis{
@@ -261,7 +262,7 @@ margin-left: 5rem;
   flex-wrap: wrap;
   align-content: space-around;
   padding: 1rem;
-  height: 150px;
+  height: 135px;
   width: 310px;
 }
 
@@ -270,16 +271,16 @@ margin-left: 5rem;
 .divModo{
   display: flex;
   flex-direction: column;
-}
-
-.imgModo{
-  margin-left: 5rem;
+  flex-wrap: wrap;
+  margin-left: 3rem;
   height: 500px;
   width: 750px;
 }
 
 .textModo{
-  margin: 5rem;
+  width: 850px;
+  padding-left: 3rem;
+  padding-top: 2rem;
 }
 
 .divVideo_Modo{
@@ -332,14 +333,6 @@ aside{
   margin-top: 15rem;
 }
 
-
-.divContacto{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
 .sectionClases h2{
   font-size: 6rem;
 }
@@ -357,30 +350,33 @@ aside{
 .form{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  width: 500px;
-  height: 400px;
-  font-size: 2rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .form label{
+  font-size: 2rem ;
   width: 500px;
   display: flex;
   padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form input{
   display: flex;
   height: 5rem;
+  font-size: 2rem;
   width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form textarea{
   width: 500px;
   height: 300px;
   padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
 }
 
 .form button{
@@ -388,6 +384,8 @@ aside{
   flex-direction: row;
   width: 7rem;
   height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -450,7 +448,7 @@ aside{
                       /* MEDIA QUERIES UNA COLUMNA*/
 
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 743px) and (max-width: 1244px){
 
   .contenedor{
   display: grid;
@@ -511,45 +509,11 @@ aside{
 
 
                     /* ESTILOS MEDIA QUERIES GENERALES */
-
-.nav{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.divNav{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.nav h1{
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.nav h1 a{
-  flex-direction: row;
-  font-size: 2.5rem;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-}
-
-.nav div{
-  
-}
-
-.nav div a{
-  font-size: 2.1rem;
-
-}
-
 #main{
   display: flex;
   flex-direction: column;
 }
+
 
 #main h2{
   font-size: 8rem;
@@ -563,31 +527,85 @@ aside{
   margin-right: auto;
 }
 
-              
-                      /* ESTILOS MEDIA QUERIES BATERISTA */
-
-.imgBaterista{
-  padding-bottom: 2rem;
+#main p{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 
-                    /* ESTILOS MEDIA QUERIES MODO */
 
-#main section div ul{
-  display: flex;
-  flex-direction: column;
+                       /* ESTILOS MEDIA QUERIES SOBREDOSIS */
+
+.divSobredosis{
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 2rem;
+
+}
+
+.divVideo_Sobredosis iframe{
+  padding-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
 
+.asideSoda{
+  padding-top: 0.5rem
+}
+
+              
+                      /* ESTILOS MEDIA QUERIES BATERISTA */
+
+.textBaterista{
+  width: 710px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.divBaterista{
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 2rem;
+}
+
+.divVideo_Baterista iframe{
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+                    /* ESTILOS MEDIA QUERIES MODO */
+
+
+.divVideo_Modo iframe{
+  padding-bottom: 2rem;
+}
+
 .divImgs{
-  display: flex;
   flex-direction: column;
 }
 
-
-
+.divImgs img{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
 }
+
+.textModo{
+  width: 720px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+/* ESTILOS MEDIA QUERIES CLASES */
+
+
+
+
+
 
                   /* ANIMACIONES */
 
@@ -596,9 +614,7 @@ aside{
   to{opacity: 1}
 }
 
-@keyframes SubNav{
 
-}
 
 
 
