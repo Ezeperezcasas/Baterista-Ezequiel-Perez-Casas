@@ -123,24 +123,12 @@
 .imgRight{
   display: flex;
   margin-left: auto;
-  margin-right: 5rem;
+  margin-right: 10rem;
 }
 
 .imgLeft{
 display: flex;
-margin-left: 5rem;
 }
-
-.imgRectangulo{
-  height: 500px;
-  width: 750px;
-}
-
-.imgCuadrado{
-  height: 620px;
-  width: 620px;
-}
-
 
 .tituloCenter{
   text-align: center;
@@ -150,7 +138,6 @@ margin-left: 5rem;
 .tituloLeft{
   margin-top: 6rem;
   margin-top: 10rem;
-  margin-left: 2rem;
 }
 
 .tituloRight{
@@ -184,15 +171,6 @@ margin-left: 5rem;
 
                     /*INICIO ESTILOS BATERISTA*/
 
-.divBaterista{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 3rem;
-  height: 500px;
-  width: 750px;
-}
-
 .textBaterista{
   width: 800px;
   padding-left: 3rem;
@@ -211,6 +189,7 @@ margin-left: 5rem;
 }
 
 
+
                   /*INICIO ESTILOS SOBREDOSIS DE SODA*/
 
 .textSobredosis{
@@ -219,21 +198,13 @@ margin-left: 5rem;
   padding-top: 2rem;
 }
 
-.divSobredosis{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 3rem;
-  height: 500px;
-  width: 750px;
-}
-
 .divVideo_Sobredosis{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 
 }
+
 
 .asideSoda{
   padding-top: 13rem;
@@ -267,15 +238,6 @@ margin-left: 5rem;
 }
 
                   /*IINICIO ESTILOS MODO UNIVERSAL*/
-
-.divModo{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 3rem;
-  height: 500px;
-  width: 750px;
-}
 
 .textModo{
   width: 850px;
@@ -329,10 +291,6 @@ margin-left: 5rem;
   width: 600px;
 }
 
-aside{
-  margin-top: 15rem;
-}
-
 .sectionClases h2{
   font-size: 6rem;
 }
@@ -345,6 +303,10 @@ aside{
   padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sectionClases{
+  margin-top: 20rem;
 }
 
 .form{
@@ -389,218 +351,365 @@ aside{
 }
 
 
-                  /* GRID CONTENEDOR UNA COLUMNA (INDEX,BATERISTA,MODO) */
-
-.contenedor{
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas: "nav" 
-                      "main" 
-                      "footer";
-}
-
-#nav{
-  grid-area: nav;
-}
-
-#main{
-  grid-area: main;
-}
-
-#footer{
-  grid-area: footer;
-}
-
-/*  GRID CONTENEDOR DOS COLUMNAS (SOBREDOSIS,CLASES) */
-
-.contenedorDos{
-  display: grid;
-  grid-template-columns: repeat(2,50% 50%);
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas: "nav nav" 
-                      "main aside" 
-                      "video video"
-                      "footer footer";
-}
-
-#nav{
-  grid-area: nav;
-}
-
-#main{
-  grid-area: main;
-}
-
-#aside{
-  grid-area: aside;
-}
-
-#video{
-  grid-area: video;
-}
-
-#footer{
-  grid-area: footer;
-}
+                /* MEDIA QUERIES */
 
 
-                      /* MEDIA QUERIES UNA COLUMNA*/
+@media screen and (min-width: 460px) and (max-width: 860px){
 
 
-@media screen and (min-width: 743px) and (max-width: 1244px){
+  /* INICIO ESTILOS MEDIA QUERIES GENERALES */
 
-  .contenedor{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid grid-template-rows: 3 repeat(auto);
-  grid-template-areas: "nav" 
-                       "main" 
-                       "footer";
+  .logoH1 a{
+    font-size: 2rem;
   }
 
-  #nav{
-  grid-area: nav;
+  h2{
+    font-size: 6rem;
   }
 
-  #main{
-  grid-area: main;
+  p{
+    font-size: 1.5rem;
   }
 
-  #footer{
-  grid-area: footer;
-  }
+                               /*INICIO ESTILOS MAIN INDEX*/
 
 
-
-  /* MEDIA QUERIES DOS COLUMNAS */
-
-.contenedorDos{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(5,auto);
-  grid-template-areas: "nav" 
-                      "main" 
-                      "aside"
-                      "video"
-                      "footer";
-}
-
-#nav{
-  grid-area: nav;
-}
-
-#main{
-  grid-area: main;
-}
-
-#aside{
-  grid-area: aside;
-}
-
-#video{
-  grid-area: video;
-}
-
-#footer{
-  grid-area: footer;
-}
-
-
-
-                    /* ESTILOS MEDIA QUERIES GENERALES */
-#main{
+.textRight{
   display: flex;
-  flex-direction: column;
-}
-
-
-#main h2{
-  font-size: 8rem;
   text-align: center;
-
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
-#main img{
+.textLeft{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.imgRight{
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
-#main p{
+.imgLeft{
+display: flex;
+margin-right: auto;
+margin-left: auto;
+}
+
+.imgRectangulo{
+  height: 400px;
+  width: 650px;
+}
+
+.imgCuadrado{
+  height: 520px;
+  width: 520px;
+}
+
+.tituloLeft{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.tituloRight{
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
 }
 
+                    /*INICIO ESTILOS MODO UNIVERSAL*/
 
-
-                       /* ESTILOS MEDIA QUERIES SOBREDOSIS */
-
-.divSobredosis{
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 2rem;
-
+.textModo{
+  width: 780px;
 }
 
-.divVideo_Sobredosis iframe{
-  padding-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.asideSoda{
-  padding-top: 0.5rem
-}
-
-              
-                      /* ESTILOS MEDIA QUERIES BATERISTA */
-
-.textBaterista{
-  width: 710px;
-  padding-left: 3rem;
-  padding-top: 2rem;
-}
-
-.divBaterista{
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 2rem;
-}
-
-.divVideo_Baterista iframe{
-  padding-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-                    /* ESTILOS MEDIA QUERIES MODO */
-
-
-.divVideo_Modo iframe{
-  padding-bottom: 2rem;
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
 }
 
 .divImgs{
+  display: flex;
+  align-items: center;
+  align-content: center;
   flex-direction: column;
+  justify-content: space-around;
 }
 
-.divImgs img{
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+                 /*INICIO ESTILOS CLASE*/
+
+.divClases{
+  align-content: center;
+  align-items: center;
+}
+
+.textClases{
+width: 700px;
+}
+
+.sectionClases h2{
+  font-size: 5rem;
+}
+
+
+.sectionClases{
+  margin-top: 2rem;
+}
+
+
+
+}
+
+@media screen and (min-width: 330px) and (max-width: 460px){
+
+
+                      /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+
+  .logoH1 a{
+    font-size: 1.3rem;
+  }
+
+  h2{
+    font-size: 5rem;
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
+
+                               /*INICIO ESTILOS MAIN INDEX*/
+
+
+.textRight{
+  display: flex;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.textLeft{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.imgRight{
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1rem;
 }
 
-.textModo{
-  width: 720px;
-  padding-left: 3rem;
+.imgLeft{
+display: flex;
+margin-right: auto;
+margin-left: auto;
+}
+
+.tituloLeft{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.tituloRight{
+  display: flex;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+
+                      /*INICIO ESTILOS BATERISTA*/
+
+.textBaterista{
+  width: 800px;
   padding-top: 2rem;
 }
 
-/* ESTILOS MEDIA QUERIES CLASES */
+.divVideo_Baterista{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+                 /*INICIO ESTILOS SOBREDOSIS DE SODA*/
+
+.textSobredosis{
+  width: 350px;
+}
+
+.divVideo_Sobredosis{
+  align-content: center;
+  align-items: center;
+}
+
+.divVideo_Sobredosis iframe{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.asideSoda h2{
+  font-size: 5rem;
+}
+
+.divSponsor{
+  display: flex;
+  justify-content: center;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.article img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 1rem;
+  height: 125px;
+  width: 300px;
+}
+
+                  /*INICIO ESTILOS MODO UNIVERSAL*/
+
+.textModo{
+  width: 350px;
+}
+
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
+}
+
+.divImgs{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+                 /*INICIO ESTILOS CLASE*/
+
+.imgClases{
+  height: 300px;
+  width: 300px;
+}
+
+.textClases{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 320px;
+}
+
+.sectionClases h2{
+  font-size: 5rem;
+}
+
+.sectionClases iframe{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionClases{
+  margin-top: 2rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  font-size: 2rem ;
+  width: 300px;
+  display: flex;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form input{
+  display: flex;
+  height: 5rem;
+  font-size: 2rem;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form textarea{
+  width: 300px;
+  height: 300px;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.form button{
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+                         /*INICIO ESTILOS FOOTER*/
+
+.imgFooter_Sm{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+
+
+}
+
+
+
+
 
 
 
