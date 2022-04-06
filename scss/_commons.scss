@@ -1,0 +1,51 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: $fontMain;
+}
+
+html{
+	  font-size: 62.5%;
+  }
+
+    body{
+      color: map-get($map:$paleta,$key:'dos');
+      background-color: map-get($map:$paleta,$key:'uno');
+    }
+
+      h2{
+     font-size: $textXl;
+     font-weight: 500;
+     padding-bottom: 2rem;
+     animation-name: textWow;
+     animation-duration:2s;
+     animation-timing-function:ease;
+     }
+
+        img:hover{
+          transform: scale(1.03);
+          cursor: pointer;
+          transition: transform 2s;
+        }
+
+
+@mixin flex($direction,$justify,$align,$warp){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $warp;
+}
+
+@mixin texto($font-size,$line-height,$font-weight,$color){
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  color: $color;
+}
+
+  p{
+   @include texto($textXs,2.4rem,300,map-get($map:$paleta,$key:'dos'));
+  }
+
+

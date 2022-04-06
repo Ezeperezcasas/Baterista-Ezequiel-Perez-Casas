@@ -1,0 +1,50 @@
+.header{ 
+  background-color: map-get($map:$paleta,$key:'uno'); 
+}                                        
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+    .logoH1 a{
+      display: flex;
+      font-size: $textMd;
+      color: map-get($map:$paleta,$key:'dos');
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: $fontSecond;
+    }
+    
+      #divNav{
+        display: flex;
+        animation-name: textWow;
+        animation-duration:2s;
+        animation-timing-function:ease;
+      
+        ul li a{
+          display: flex;
+          font-size: $textSm2;
+          font-family: $fontSecond;
+          text-decoration: none;
+          color: map-get($map:$paleta,$key:'dos');
+          &:hover{
+            text-shadow: 0 0 10px map-get($map:$paleta,$key:'tres'),
+                         0 0 20px map-get($map:$paleta,$key:'tres'),
+                         0 0 40px map-get($map:$paleta,$key:'tres');
+          }
+        }
+      }
+
+
+
+
+
+
+
+
+

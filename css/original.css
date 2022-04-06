@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  font-family:'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  }
+
+  html{
+	  font-size: 62.5%;
+  }
+
+    body{
+      color: #FFF;
+      background-color: #041634;
+    }
+
+      h2{
+     font-size: 10rem;
+     font-weight: 500;
+     padding-bottom: 2rem;
+     animation-name: textWow;
+     animation-duration:2s;
+     animation-timing-function:ease;
+     }
+
+        p{
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height:2.4rem;
+        color: #FFF;
+        }
+
+        img:hover{
+          transform: scale(1.03);
+          cursor: pointer;
+          transition: transform 2s;
+        }
+
+                          /*INICIO ESTILOS HEADER*/   
+  .header{ 
+     background-color: #041634; 
+   }                                         
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .logoH1 a{
+    display: flex;
+    font-size: 3rem;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #divNav{
+    display: flex;
+    animation-name: textWow;
+    animation-duration:2s;
+    animation-timing-function:ease;
+  }
+
+#divNav ul li a{
+  display: flex;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #FFF;
+}
+
+#divNav ul li  a:hover{
+  text-shadow: 0 0 10px #6EC1E4,
+  0 0 20px #6EC1E4,
+  0 0 40px #6EC1E4;
+}
+
+
+
+
+
+                             /*INICIO ESTILOS MAIN INDEX*/
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.textCenter{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+.textRight{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+.textLeft{
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.imgCenter{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imgRight{
+  display: flex;
+  margin-left: auto;
+  margin-right: 10rem;
+}
+
+.imgLeft{
+display: flex;
+}
+
+.tituloCenter{
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.tituloLeft{
+  margin-top: 6rem;
+  margin-top: 10rem;
+}
+
+.tituloRight{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+                          /*INICIO ESTILOS FOOTER*/
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+.footer h3{
+  padding: 1rem;
+}
+
+.imgFooter_Sm{
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+                    /*INICIO ESTILOS BATERISTA*/
+
+.textBaterista{
+  width: 800px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+
+}
+
+.divVideo_Baterista{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.divVid{
+  padding-top: 5rem;
+}
+
+
+
+                  /*INICIO ESTILOS SOBREDOSIS DE SODA*/
+
+.textSobredosis{
+  width: 800px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.divVideo_Sobredosis{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+
+.asideSoda{
+  padding-top: 13rem;
+}
+
+.asideSoda h2{
+  font-size: 6rem;
+  
+}
+
+.divSponsor{
+  display: flex;
+  justify-content: center;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.article img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 1rem;
+  height: 135px;
+  width: 310px;
+}
+
+                  /*IINICIO ESTILOS MODO UNIVERSAL*/
+
+.textModo{
+  width: 850px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
+}
+
+.divImgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+
+
+                  /*INICIO ESTILOS CLASE*/
+
+
+.divClases{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgClases{
+  margin-left: 5rem;
+  height: 620px;
+  width: 620px;
+}
+
+.textClases{
+  margin-left: 5rem;
+  padding: 3rem;
+  width: 600px;
+}
+
+.sectionClases h2{
+  font-size: 6rem;
+}
+
+.sectionClases iframe{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionClases{
+  margin-top: 20rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  font-size: 2rem ;
+  width: 500px;
+  display: flex;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form input{
+  display: flex;
+  height: 5rem;
+  font-size: 2rem;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form textarea{
+  width: 500px;
+  height: 300px;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.form button{
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+                /* MEDIA QUERIES */
+
+
+@media screen and (min-width: 460px) and (max-width: 860px){
+
+
+  /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+
+  .logoH1 a{
+    font-size: 2rem;
+  }
+
+  h2{
+    font-size: 6rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+                               /*INICIO ESTILOS MAIN INDEX*/
+
+
+.textRight{
+  display: flex;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.textLeft{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.imgRight{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgLeft{
+display: flex;
+margin-right: auto;
+margin-left: auto;
+}
+
+.imgRectangulo{
+  height: 400px;
+  width: 650px;
+}
+
+.imgCuadrado{
+  height: 520px;
+  width: 520px;
+}
+
+.tituloLeft{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.tituloRight{
+  display: flex;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+                    /*INICIO ESTILOS MODO UNIVERSAL*/
+
+.textModo{
+  width: 780px;
+}
+
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
+}
+
+.divImgs{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+                 /*INICIO ESTILOS CLASE*/
+
+.divClases{
+  align-content: center;
+  align-items: center;
+}
+
+.textClases{
+width: 700px;
+}
+
+.sectionClases h2{
+  font-size: 5rem;
+}
+
+
+.sectionClases{
+  margin-top: 2rem;
+}
+
+
+
+}
+
+@media screen and (min-width: 330px) and (max-width: 460px){
+
+
+                      /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+
+  .logoH1 a{
+    font-size: 1.3rem;
+  }
+
+  h2{
+    font-size: 5rem;
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
+
+                               /*INICIO ESTILOS MAIN INDEX*/
+
+
+.textRight{
+  display: flex;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.textLeft{
+  display: flex;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.imgRight{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgLeft{
+display: flex;
+margin-right: auto;
+margin-left: auto;
+}
+
+.tituloLeft{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.tituloRight{
+  display: flex;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+}
+
+
+                      /*INICIO ESTILOS BATERISTA*/
+
+.textBaterista{
+  width: 800px;
+  padding-top: 2rem;
+}
+
+.divVideo_Baterista{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+                 /*INICIO ESTILOS SOBREDOSIS DE SODA*/
+
+.textSobredosis{
+  width: 350px;
+}
+
+.divVideo_Sobredosis{
+  align-content: center;
+  align-items: center;
+}
+
+.divVideo_Sobredosis iframe{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.asideSoda h2{
+  font-size: 5rem;
+}
+
+.divSponsor{
+  display: flex;
+  justify-content: center;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.article img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 1rem;
+  height: 125px;
+  width: 300px;
+}
+
+                  /*INICIO ESTILOS MODO UNIVERSAL*/
+
+.textModo{
+  width: 350px;
+}
+
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
+}
+
+.divImgs{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+                 /*INICIO ESTILOS CLASE*/
+
+.imgClases{
+  height: 300px;
+  width: 300px;
+}
+
+.textClases{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 320px;
+}
+
+.sectionClases h2{
+  font-size: 5rem;
+}
+
+.sectionClases iframe{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionClases{
+  margin-top: 2rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  font-size: 2rem ;
+  width: 300px;
+  display: flex;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form input{
+  display: flex;
+  height: 5rem;
+  font-size: 2rem;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form textarea{
+  width: 300px;
+  height: 300px;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.form button{
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+                         /*INICIO ESTILOS FOOTER*/
+
+.imgFooter_Sm{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+                  /* ANIMACIONES */
+
+@keyframes textWow{
+  from{opacity: 0}
+  to{opacity: 1}
+}

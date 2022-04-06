@@ -1,0 +1,21 @@
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+
+  h3{
+  padding: 1rem;
+  } 
+}
+
+.imgFooter_Sm{
+  height: 4.5rem;
+  width: 4.5rem;
+}

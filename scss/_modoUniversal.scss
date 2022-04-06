@@ -1,0 +1,28 @@
+.textModo{
+  width: 850px;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.divVideo_Modo{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imgSmall{
+  height: 15rem;
+  width: 15rem;
+}
+
+.divImgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.audios{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}

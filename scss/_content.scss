@@ -1,0 +1,58 @@
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+  .textCenter{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+  }
+
+  .textLeft{
+    padding-left: 5rem;
+    padding-top: 1rem;
+  }
+
+  .textRight{
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+  }
+
+  .imgCenter{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgRight{
+    display: flex;
+    margin-left: auto;
+    margin-right: 10rem;
+  }
+
+  .imgLeft{
+  display: flex;
+  }
+
+  .tituloCenter{
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+  .tituloLeft{
+    margin-top: 6rem;
+    margin-top: 10rem;
+  }
+
+  .tituloRight{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+  }
+
+

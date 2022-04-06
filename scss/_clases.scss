@@ -1,0 +1,77 @@
+.divClases{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgClases{
+  margin-left: 5rem;
+  height: 620px;
+  width: 620px;
+}
+
+.textClases{
+  margin-left: 5rem;
+  padding: 3rem;
+  width: 600px;
+}
+
+.sectionClases{
+  margin-top: 20rem;
+
+  h2{
+    font-size: $textLg;
+  }
+}
+
+.sectionClases iframe{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form label{
+  font-size: $textSm2;
+  width: 500px;
+  display: flex;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form input{
+  display: flex;
+  height: 5rem;
+  font-size: $textSm2;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form textarea{
+  width: 500px;
+  height: 300px;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: $textSm2;
+}
+
+.form button{
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
