@@ -1,6 +1,5 @@
 .divClases{
-  display: flex;
-  flex-direction: column;
+  @include flex(flex,column);
   justify-content: center;
 }
 
@@ -13,7 +12,7 @@
 .textClases{
   margin-left: 5rem;
   padding: 3rem;
-  width: 600px;
+  width: 87%;
 }
 
 .sectionClases{
@@ -25,8 +24,7 @@
 }
 
 .sectionClases iframe{
-  display: flex;
-  flex-direction: column;
+  @include flex(flex,column);
   width: 500px;
   height: 400px;
   padding-top: 2rem;
@@ -36,42 +34,40 @@
 
 
 .form{
-  display: flex;
-  flex-direction: column;
-}
-
-.form label{
+  @include flex(flex,column);
+  color: map-get($map:$paleta,$key:'dos');
   font-size: $textSm2;
   width: 500px;
   display: flex;
-  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
+
+  input{
+    @extend .form;
+  }
+
+  label{
+    @extend .form;
+  }
+
+  textarea{
+    @extend .form;
+    height: 300px;
+  }
 }
 
-.form input{
-  display: flex;
-  height: 5rem;
-  font-size: $textSm2;
-  width: 500px;
+
+
+.btnClases{
+  @include flex(flex,row);
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10rem;
+  font-size: $textXs;
+  &:hover{
+          text-shadow: 0 0 10px map-get($map:$paleta,$key:'tres'),
+                       0 0 20px map-get($map:$paleta,$key:'tres'),
+                       0 0 40px map-get($map:$paleta,$key:'tres');
 }
 
-.form textarea{
-  width: 500px;
-  height: 300px;
-  padding-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: $textSm2;
-}
 
-.form button{
-  display: flex;
-  flex-direction: row;
-  width: 7rem;
-  height: 4rem;
-  margin-left: auto;
-  margin-right: auto;
 }

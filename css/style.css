@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;300;400;500&family=Roboto:wght@300;400;500&display=swap");
 @keyframes textWow {
   from {
     opacity: 0; }
@@ -14,16 +14,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  color: #FFF;
   background-color: #041634; }
-
-h2 {
-  font-size: 10rem;
-  font-weight: 500;
-  padding-bottom: 2rem;
-  animation-name: textWow;
-  animation-duration: 2s;
-  animation-timing-function: ease; }
 
 img:hover {
   transform: scale(1.03);
@@ -34,15 +25,27 @@ p {
   font-size: 1.8rem;
   line-height: 2.4rem;
   font-weight: 300;
-  color: #FFF; }
+  color: #FFF;
+  font-family: "Montserrat", sans-serif; }
+
+h2 {
+  font-size: 12rem;
+  line-height: 12rem;
+  font-weight: 400;
+  color: #FFF;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 2rem;
+  animation-name: textWow;
+  animation-duration: 2s;
+  animation-timing-function: ease; }
 
 .header {
   background-color: #041634; }
 
 .nav {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem; }
@@ -74,29 +77,25 @@ p {
   flex-direction: column; }
 
 .textCenter {
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   padding-top: 1rem; }
 
 .textLeft {
-  padding-left: 5rem;
   padding-top: 1rem; }
 
 .textRight {
+  display: flex;
   flex-direction: row-reverse;
   padding-bottom: 1rem;
   padding-right: 5rem;
   padding-top: 1rem; }
 
-.imgCenter {
+.imgCenter, .imgRight {
   display: flex;
   margin-right: auto;
   margin-left: auto; }
 
 .imgRight {
-  display: flex;
-  margin-left: auto;
   margin-right: 10rem; }
 
 .imgLeft {
@@ -107,7 +106,6 @@ p {
   margin-top: 6rem; }
 
 .tituloLeft {
-  margin-top: 6rem;
   margin-top: 10rem; }
 
 .tituloRight {
@@ -126,6 +124,7 @@ p {
   margin-top: 10rem;
   margin-bottom: 4rem; }
   .footer h3 {
+    color: #FFF;
     padding: 1rem; }
 
 .imgFooter_Sm {
@@ -133,7 +132,7 @@ p {
   width: 4.5rem; }
 
 .textBaterista {
-  width: 800px;
+  width: 100%;
   padding-left: 3rem;
   padding-top: 2rem; }
 
@@ -180,7 +179,7 @@ p {
   flex-wrap: wrap; }
 
 .textModo {
-  width: 850px;
+  width: 100%;
   padding-left: 3rem;
   padding-top: 2rem; }
 
@@ -216,7 +215,7 @@ p {
 .textClases {
   margin-left: 5rem;
   padding: 3rem;
-  width: 600px; }
+  width: 87%; }
 
 .sectionClases {
   margin-top: 20rem; }
@@ -232,43 +231,27 @@ p {
   margin-left: auto;
   margin-right: auto; }
 
-.form {
+.form, .form input, .form label, .form textarea {
   display: flex;
-  flex-direction: column; }
-
-.form label {
+  flex-direction: column;
+  color: #FFF;
   font-size: 2.5rem;
   width: 500px;
   display: flex;
-  padding: 1rem;
   margin-left: auto;
   margin-right: auto; }
+  .form textarea {
+    height: 300px; }
 
-.form input {
-  display: flex;
-  height: 5rem;
-  font-size: 2.5rem;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.form textarea {
-  width: 500px;
-  height: 300px;
-  padding-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 2.5rem; }
-
-.form button {
+.btnClases {
   display: flex;
   flex-direction: row;
-  width: 7rem;
-  height: 4rem;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: 10rem;
+  font-size: 1.8rem; }
+  .btnClases:hover {
+    text-shadow: 0 0 10px #6EC1E4, 0 0 20px #6EC1E4, 0 0 40px #6EC1E4; }
 
-/* MEDIA QUERIES */
 @media screen and (min-width: 460px) and (max-width: 860px) {
   /* INICIO ESTILOS MEDIA QUERIES GENERALES */
   .logoH1 a {
@@ -309,6 +292,16 @@ p {
     text-align: center;
     padding-bottom: 1rem;
     padding-right: 3rem; }
+  /*INICIO ESTILOS BATERISTA*/
+  .textBaterista {
+    width: 100%;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto; }
+  .divVideo_Baterista {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
   /*INICIO ESTILOS MODO UNIVERSAL*/
   .textModo {
     width: 780px; }
@@ -329,6 +322,8 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 7rem; }
+    .audios iframe {
+      width: 100%; }
   /*INICIO ESTILOS CLASE*/
   .divClases {
     align-content: center;
@@ -340,10 +335,10 @@ p {
   .sectionClases {
     margin-top: 2rem; } }
 
-@media screen and (min-width: 330px) and (max-width: 460px) {
+@media screen and (min-width: 280px) and (max-width: 660px) {
   /* INICIO ESTILOS MEDIA QUERIES GENERALES */
   .logoH1 a {
-    font-size: 1.3rem; }
+    font-size: 1.8rem; }
   h2 {
     font-size: 5rem; }
   p {
@@ -376,7 +371,7 @@ p {
     padding-right: 3rem; }
   /*INICIO ESTILOS BATERISTA*/
   .textBaterista {
-    width: 800px;
+    width: 100%;
     padding-top: 2rem; }
   .divVideo_Baterista {
     display: flex;
@@ -384,7 +379,7 @@ p {
     flex-wrap: wrap; }
   /*INICIO ESTILOS SOBREDOSIS DE SODA*/
   .textSobredosis {
-    width: 350px; }
+    width: 100%; }
   .divVideo_Sobredosis {
     align-content: center;
     align-items: center; }
@@ -412,7 +407,7 @@ p {
     width: 300px; }
   /*INICIO ESTILOS MODO UNIVERSAL*/
   .textModo {
-    width: 350px; }
+    width: 100%; }
   .divVideo_Modo {
     display: flex;
     justify-content: space-evenly;
@@ -430,6 +425,8 @@ p {
     display: flex;
     justify-content: center;
     margin-bottom: 7rem; }
+    .audios iframe {
+      width: 100%; }
   /*INICIO ESTILOS CLASE*/
   .imgClases {
     height: 300px;
@@ -438,7 +435,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 320px; }
+    width: 100%; }
   .sectionClases h2 {
     font-size: 5rem; }
   .sectionClases iframe {
@@ -451,7 +448,7 @@ p {
     margin-right: auto; }
   .sectionClases {
     margin-top: 2rem; }
-  .form {
+  .form, .form input, .form label, .form textarea {
     display: flex;
     flex-direction: column; }
   .form label {

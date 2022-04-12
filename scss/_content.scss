@@ -1,22 +1,18 @@
 .main{
-  display: flex;
-  flex-direction: column;
+  @include flex(flex,column);
 }
 
   .textCenter{
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     padding-top: 1rem;
   }
 
   .textLeft{
-    padding-left: 5rem;
     padding-top: 1rem;
   }
 
   .textRight{
-    flex-direction: row-reverse;
+    @include flex(flex,row-reverse);
     padding-bottom: 1rem;
     padding-right: 5rem;
     padding-top: 1rem;
@@ -29,13 +25,12 @@
   }
 
   .imgRight{
-    display: flex;
-    margin-left: auto;
+    @extend .imgCenter;
     margin-right: 10rem;
   }
 
   .imgLeft{
-  display: flex;
+    display: flex;
   }
 
   .tituloCenter{
@@ -44,13 +39,11 @@
   }
 
   .tituloLeft{
-    margin-top: 6rem;
     margin-top: 10rem;
   }
 
   .tituloRight{
-    display: flex;
-    flex-direction: row-reverse;
+    @include flex(flex,row-reverse);
     padding-bottom: 1rem;
     padding-right: 3rem;
   }

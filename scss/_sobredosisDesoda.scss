@@ -19,14 +19,12 @@
 }
 
 .article{
-  display: flex;
-  flex-direction: column;
+  @include flex(flex,column);
   flex-wrap: wrap;
   align-content: space-around;
   
   img{
-  display: flex;
-  flex-direction: row;
+  @include flex(flex,row);
   flex-wrap: wrap;
   align-content: space-around;
   padding: 1rem;

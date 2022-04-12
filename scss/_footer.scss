@@ -1,8 +1,7 @@
 
 
 .footer{
-  display: flex;
-  flex-direction: column;
+  @include flex(flex,column);
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -11,7 +10,8 @@
   margin-bottom: 4rem;
 
   h3{
-  padding: 1rem;
+    color: map-get($map:$paleta,$key:'dos');;
+    padding: 1rem;
   } 
 }
 

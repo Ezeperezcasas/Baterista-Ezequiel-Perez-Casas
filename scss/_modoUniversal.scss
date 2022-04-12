@@ -1,5 +1,5 @@
 .textModo{
-  width: 850px;
+  width: 100%;
   padding-left: 3rem;
   padding-top: 2rem;
 }
@@ -16,8 +16,7 @@
 }
 
 .divImgs{
-  display: flex;
-  flex-direction: row;
+  @include flex(flex,row);
   justify-content: space-around;
 }
 

@@ -1,10 +1,7 @@
-                /* MEDIA QUERIES */
-
 
 @media screen and (min-width: 460px) and (max-width: 860px){
 
-
-  /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+/* INICIO ESTILOS MEDIA QUERIES GENERALES */
 
   .logoH1 a{
     font-size: 2rem;
@@ -18,118 +15,133 @@
     font-size: 1.5rem;
   }
 
-                               /*INICIO ESTILOS MAIN INDEX*/
+/*INICIO ESTILOS MAIN INDEX*/
+
+  .textRight{
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .textLeft{
+    display: flex;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .imgRight{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgLeft{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgRectangulo{
+    height: 400px;
+    width: 650px;
+  }
+
+  .imgCuadrado{
+    height: 520px;
+    width: 520px;
+  }
+
+  .tituloLeft{
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  .tituloRight{
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+  }
+
+/*INICIO ESTILOS BATERISTA*/
+
+  .textBaterista{
+    width: 100%;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .divVideo_Baterista{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+/*INICIO ESTILOS MODO UNIVERSAL*/
+
+  .textModo{
+    width: 780px;
+  }
+
+  .divVideo_Modo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .imgSmall{
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .divImgs{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .audios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+
+    iframe{
+      width: 100%;
+    }
+  }
+
+/*INICIO ESTILOS CLASE*/
+
+  .divClases{
+    align-content: center;
+    align-items: center;
+  }
+
+  .textClases{
+    width: 700px;
+  }
+
+  .sectionClases h2{
+    font-size: 5rem;
+  }
 
 
-.textRight{
-  display: flex;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  .sectionClases{
+    margin-top: 2rem;
+  }
+
 }
 
-.textLeft{
-  display: flex;
-  text-align: center;
-  padding-top: 1rem;
-}
+@media screen and (min-width: 280px) and (max-width: 660px){
 
-.imgRight{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.imgLeft{
-display: flex;
-margin-right: auto;
-margin-left: auto;
-}
-
-.imgRectangulo{
-  height: 400px;
-  width: 650px;
-}
-
-.imgCuadrado{
-  height: 520px;
-  width: 520px;
-}
-
-.tituloLeft{
-  margin-top: 10rem;
-  text-align: center;
-}
-
-.tituloRight{
-  display: flex;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-right: 3rem;
-}
-
-                    /*INICIO ESTILOS MODO UNIVERSAL*/
-
-.textModo{
-  width: 780px;
-}
-
-.divVideo_Modo{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.imgSmall{
-  height: 15rem;
-  width: 15rem;
-}
-
-.divImgs{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.audios{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 7rem;
-}
-
-                 /*INICIO ESTILOS CLASE*/
-
-.divClases{
-  align-content: center;
-  align-items: center;
-}
-
-.textClases{
-width: 700px;
-}
-
-.sectionClases h2{
-  font-size: 5rem;
-}
-
-
-.sectionClases{
-  margin-top: 2rem;
-}
-
-
-
-}
-
-@media screen and (min-width: 330px) and (max-width: 460px){
-
-
-                      /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+/* INICIO ESTILOS MEDIA QUERIES GENERALES */
 
   .logoH1 a{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
   h2{
@@ -140,216 +152,216 @@ width: 700px;
     font-size: 1.4rem;
   }
 
+/*INICIO ESTILOS MAIN INDEX*/
 
-                               /*INICIO ESTILOS MAIN INDEX*/
+  .textRight{
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
 
+  .textLeft{
+    display: flex;
+    text-align: center;
+    padding-top: 1rem;
+  }
 
-.textRight{
-  display: flex;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
+  .imgRight{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.textLeft{
-  display: flex;
-  text-align: center;
-  padding-top: 1rem;
-}
+  .imgLeft{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-.imgRight{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .tituloLeft{
+    margin-top: 10rem;
+    text-align: center;
+  }
 
-.imgLeft{
-display: flex;
-margin-right: auto;
-margin-left: auto;
-}
-
-.tituloLeft{
-  margin-top: 10rem;
-  text-align: center;
-}
-
-.tituloRight{
-  display: flex;
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-right: 3rem;
-}
+  .tituloRight{
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+  }
 
 
-                      /*INICIO ESTILOS BATERISTA*/
+/*INICIO ESTILOS BATERISTA*/
 
-.textBaterista{
-  width: 800px;
-  padding-top: 2rem;
-}
+  .textBaterista{
+    width: 100%;
+    padding-top: 2rem;
+  }
 
-.divVideo_Baterista{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-
-                 /*INICIO ESTILOS SOBREDOSIS DE SODA*/
-
-.textSobredosis{
-  width: 350px;
-}
-
-.divVideo_Sobredosis{
-  align-content: center;
-  align-items: center;
-}
-
-.divVideo_Sobredosis iframe{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.asideSoda h2{
-  font-size: 5rem;
-}
-
-.divSponsor{
-  display: flex;
-  justify-content: center;
-}
-
-.article{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
-}
-
-.article img{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-around;
-  padding: 1rem;
-  height: 125px;
-  width: 300px;
-}
-
-                  /*INICIO ESTILOS MODO UNIVERSAL*/
-
-.textModo{
-  width: 350px;
-}
-
-.divVideo_Modo{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.imgSmall{
-  height: 15rem;
-  width: 15rem;
-}
-
-.divImgs{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.audios{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 7rem;
-}
-
-                 /*INICIO ESTILOS CLASE*/
-
-.imgClases{
-  height: 300px;
-  width: 300px;
-}
-
-.textClases{
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 320px;
-}
-
-.sectionClases h2{
-  font-size: 5rem;
-}
-
-.sectionClases iframe{
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: 200px;
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.sectionClases{
-  margin-top: 2rem;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-}
-
-.form label{
-  font-size: 2rem ;
-  width: 300px;
-  display: flex;
-  padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.form input{
-  display: flex;
-  height: 5rem;
-  font-size: 2rem;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.form textarea{
-  width: 300px;
-  height: 300px;
-  padding-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 2rem;
-}
-
-.form button{
-  display: flex;
-  flex-direction: row;
-  width: 7rem;
-  height: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-                         /*INICIO ESTILOS FOOTER*/
-
-.imgFooter_Sm{
-  height: 3.5rem;
-  width: 3.5rem;
-}
+  .divVideo_Baterista{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 
 
+/*INICIO ESTILOS SOBREDOSIS DE SODA*/
+
+  .textSobredosis{
+    width: 100%;
+  }
+
+  .divVideo_Sobredosis{
+    align-content: center;
+    align-items: center;
+  }
+
+  .divVideo_Sobredosis iframe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .asideSoda h2{
+    font-size: 5rem;
+  }
+
+  .divSponsor{
+    display: flex;
+    justify-content: center;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .article img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 1rem;
+    height: 125px;
+    width: 300px;
+  }
+
+/*INICIO ESTILOS MODO UNIVERSAL*/
+
+  .textModo{
+    width: 100%;
+  }
+
+  .divVideo_Modo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .imgSmall{
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .divImgs{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .audios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+
+    iframe{
+      width: 100%;
+    }
+  }
+
+/*INICIO ESTILOS CLASE*/
+
+  .imgClases{
+    height: 300px;
+    width: 300px;
+  }
+
+  .textClases{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .sectionClases h2{
+    font-size: 5rem;
+  }
+
+  .sectionClases iframe{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sectionClases{
+    margin-top: 2rem;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form label{
+    font-size: 2rem ;
+    width: 300px;
+    display: flex;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form input{
+    display: flex;
+    height: 5rem;
+    font-size: 2rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form textarea{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+  }
+
+  .form button{
+    display: flex;
+    flex-direction: row;
+    width: 7rem;
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*INICIO ESTILOS FOOTER*/
+
+  .imgFooter_Sm{
+    height: 3.5rem;
+    width: 3.5rem;
+  }
 
 }
