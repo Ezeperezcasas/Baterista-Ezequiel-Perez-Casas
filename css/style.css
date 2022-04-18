@@ -253,14 +253,14 @@ h2 {
     text-shadow: 0 0 10px #6EC1E4, 0 0 20px #6EC1E4, 0 0 40px #6EC1E4; }
 
 @media screen and (min-width: 460px) and (max-width: 860px) {
-  /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+  /* INICIO ESTILOS GENERALES IPAD */
   .logoH1 a {
-    font-size: 2rem; }
+    font-size: 3rem; }
   h2 {
-    font-size: 6rem; }
+    font-size: 8rem; }
   p {
-    font-size: 1.5rem; }
-  /*INICIO ESTILOS MAIN INDEX*/
+    font-size: 1.8rem; }
+  /* INICIO ESTILOS MAIN INDEX IPAD */
   .textRight {
     display: flex;
     text-align: center;
@@ -292,7 +292,7 @@ h2 {
     text-align: center;
     padding-bottom: 1rem;
     padding-right: 3rem; }
-  /*INICIO ESTILOS BATERISTA*/
+  /* INICIO ESTILOS BATERISTA IPAD */
   .textBaterista {
     width: 100%;
     padding-top: 2rem;
@@ -302,16 +302,28 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; }
-  /*INICIO ESTILOS MODO UNIVERSAL*/
+    .divVideo_Baterista iframe {
+      margin-bottom: 1rem; }
+  /* INICIO ESTILOS SOBREDOSIS DE SODA IPAD */
+  .divVideo_Sobredosis {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .divVideo_Sobredosis iframe {
+      margin-bottom: 1rem; }
+  /* INICIO ESTILOS MODO UNIVERSAL IPAD */
   .textModo {
     width: 780px; }
   .divVideo_Modo {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; }
+    .divVideo_Modo iframe {
+      margin-bottom: 1rem; }
   .imgSmall {
-    height: 15rem;
-    width: 15rem; }
+    height: 17rem;
+    width: 17rem;
+    margin-bottom: 1rem; }
   .divImgs {
     display: flex;
     align-items: center;
@@ -324,7 +336,21 @@ h2 {
     margin-bottom: 7rem; }
     .audios iframe {
       width: 100%; }
-  /*INICIO ESTILOS CLASE*/
+  /* INICIO ESTILOS CLASE IPAD */
+  .imgClases {
+    margin-left: 4rem;
+    margin-right: 3rem;
+    width: 90%;
+    height: 70rem; }
+  .textClases {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%; }
+  .sectionClases {
+    margin-top: 2rem; }
+    .sectionClases h2 {
+      font-size: 5rem; }
   .divClases {
     align-content: center;
     align-items: center; }
@@ -333,17 +359,21 @@ h2 {
   .sectionClases h2 {
     font-size: 5rem; }
   .sectionClases {
-    margin-top: 2rem; } }
+    margin-top: 2rem; }
+  .btnClases {
+    margin-right: auto;
+    margin-left: 16rem; } }
 
-@media screen and (min-width: 280px) and (max-width: 660px) {
-  /* INICIO ESTILOS MEDIA QUERIES GENERALES */
+@media screen and (min-width: 280px) and (max-width: 460px) {
+  /* INICIO ESTILOS GENERALES */
   .logoH1 a {
     font-size: 1.8rem; }
   h2 {
-    font-size: 5rem; }
+    font-size: 5rem;
+    line-height: 6rem; }
   p {
     font-size: 1.4rem; }
-  /*INICIO ESTILOS MAIN INDEX*/
+  /* INICIO ESTILOS MAIN INDEX MOBILE */
   .textRight {
     display: flex;
     text-align: center;
@@ -369,24 +399,32 @@ h2 {
     text-align: center;
     padding-bottom: 1rem;
     padding-right: 3rem; }
-  /*INICIO ESTILOS BATERISTA*/
+  /* INICIO ESTILOS BATERISTA MOBILE */
   .textBaterista {
     width: 100%;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    padding-right: 3rem;
+    text-align: center; }
   .divVideo_Baterista {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; }
-  /*INICIO ESTILOS SOBREDOSIS DE SODA*/
+    .divVideo_Baterista iframe {
+      margin-bottom: 1rem; }
+  /* INICIO ESTILOS SOBREDOSIS DE SODA MOBILE*/
   .textSobredosis {
-    width: 100%; }
+    width: 100%;
+    text-align: center;
+    padding-right: 3rem; }
   .divVideo_Sobredosis {
     align-content: center;
     align-items: center; }
-  .divVideo_Sobredosis iframe {
+  .divVideo_Sobredosis {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
+    .divVideo_Sobredosis iframe {
+      margin-bottom: 1rem; }
   .asideSoda h2 {
     font-size: 5rem; }
   .divSponsor {
@@ -405,16 +443,22 @@ h2 {
     padding: 1rem;
     height: 125px;
     width: 300px; }
-  /*INICIO ESTILOS MODO UNIVERSAL*/
+  /* INICIO ESTILOS MODO UNIVERSAL MOBILE */
   .textModo {
-    width: 100%; }
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding-right: 3rem; }
   .divVideo_Modo {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; }
+    .divVideo_Modo iframe {
+      margin-bottom: 1rem; }
   .imgSmall {
     height: 15rem;
-    width: 15rem; }
+    width: 15rem;
+    margin-bottom: 1rem; }
   .divImgs {
     display: flex;
     align-items: center;
@@ -427,59 +471,50 @@ h2 {
     margin-bottom: 7rem; }
     .audios iframe {
       width: 100%; }
-  /*INICIO ESTILOS CLASE*/
+  /* INICIO ESTILOS CLASE MOBILE */
   .imgClases {
-    height: 300px;
-    width: 300px; }
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35rem; }
   .textClases {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 100%; }
-  .sectionClases h2 {
-    font-size: 5rem; }
+  .sectionClases {
+    margin-top: 2rem; }
+    .sectionClases h2 {
+      font-size: 5rem; }
   .sectionClases iframe {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
-    padding-top: 2rem;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 100%;
+    padding-top: 2rem; }
   .sectionClases {
     margin-top: 2rem; }
   .form, .form input, .form label, .form textarea {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 100%; }
   .form label {
     font-size: 2rem;
-    width: 300px;
+    width: 100%;
     display: flex;
-    padding: 1rem;
-    margin-left: auto;
-    margin-right: auto; }
+    padding: 1rem; }
   .form input {
     display: flex;
-    height: 5rem;
     font-size: 2rem;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto; }
+    width: 100%; }
   .form textarea {
-    width: 300px;
+    width: 100%;
     height: 300px;
     padding-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 2rem; }
-  .form button {
-    display: flex;
-    flex-direction: row;
-    width: 7rem;
-    height: 4rem;
-    margin-left: auto;
-    margin-right: auto; }
-  /*INICIO ESTILOS FOOTER*/
+  .btnClases {
+    margin-right: auto;
+    margin-left: 1rem; }
+  /* INICIO ESTILOS FOOTER MOBILE */
   .imgFooter_Sm {
     height: 3.5rem;
     width: 3.5rem; } }
