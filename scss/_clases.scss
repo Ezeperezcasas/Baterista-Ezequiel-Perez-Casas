@@ -56,8 +56,6 @@
   }
 }
 
-
-
 .btnClases{
   @include flex(flex,row);
   margin-left: auto;
@@ -68,6 +66,13 @@
                        0 0 20px map-get($map:$paleta,$key:'tres'),
                        0 0 40px map-get($map:$paleta,$key:'tres');
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
 
 
 }

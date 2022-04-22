@@ -1,0 +1,16 @@
+.imgSimu{
+padding-bottom: 3rem;
+}
+
+h4 a{
+font-size: $textLg;
+color: map-get($map:$paleta,$key:'dos');
+padding-bottom: 3rem;
+text-decoration: none;
+ 	&:hover{
+ 	color: map-get($map:$paleta,$key:'dos');
+ 	text-shadow: 0 0 10px map-get($map:$paleta,$key:'tres'),
+                 0 0 20px map-get($map:$paleta,$key:'tres'),
+                 0 0 40px map-get($map:$paleta,$key:'tres');
+ 	}
+}

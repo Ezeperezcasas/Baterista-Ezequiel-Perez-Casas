@@ -9,8 +9,12 @@
   margin-top: 10rem;
   margin-bottom: 4rem;
 
+  div a{
+    text-decoration: none;
+  }
+
   h3{
-    color: map-get($map:$paleta,$key:'dos');;
+    color: map-get($map:$paleta,$key:'dos');
     padding: 1rem;
   } 
 }

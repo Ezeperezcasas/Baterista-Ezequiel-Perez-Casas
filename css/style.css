@@ -123,6 +123,8 @@ h2 {
   font-size: 2.5rem;
   margin-top: 10rem;
   margin-bottom: 4rem; }
+  .footer div a {
+    text-decoration: none; }
   .footer h3 {
     color: #FFF;
     padding: 1rem; }
@@ -250,6 +252,21 @@ h2 {
   margin-right: 10rem;
   font-size: 1.8rem; }
   .btnClases:hover {
+    text-shadow: 0 0 10px #6EC1E4, 0 0 20px #6EC1E4, 0 0 40px #6EC1E4; }
+  .btnClases a {
+    text-decoration: none;
+    color: black; }
+
+.imgSimu {
+  padding-bottom: 3rem; }
+
+h4 a {
+  font-size: 6rem;
+  color: #FFF;
+  padding-bottom: 3rem;
+  text-decoration: none; }
+  h4 a:hover {
+    color: #FFF;
     text-shadow: 0 0 10px #6EC1E4, 0 0 20px #6EC1E4, 0 0 40px #6EC1E4; }
 
 @media screen and (min-width: 460px) and (max-width: 860px) {
